@@ -1,14 +1,13 @@
 """
-LeetCode Problem: <problem-number> - <problem-title>
-
-Description:
-<short description of the problem>
-
 Approach:
-<your strategy for solving it>
+Store values and indexes of each integer in a dictionary that is updated as I run through all integers 
+in the list, checking whether there exists a number in the dictionary that can sum to the target value.
 
-Time Complexity:  O(...)
-Space Complexity: O(...)
+Time Complexity:  O(n)
+Space Complexity: O(n)
+
+Tests: 
+([2,7,11,15], 9) --> [0,1], it works
 """
 
 class Solution:

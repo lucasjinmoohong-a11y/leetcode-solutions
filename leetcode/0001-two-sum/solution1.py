@@ -1,14 +1,16 @@
 """
-LeetCode Problem: <problem-number> - <problem-title>
-
-Description:
-<short description of the problem>
-
 Approach:
-<your strategy for solving it>
+Nested loop to run through each combination of pairs within the list(nums)
 
-Time Complexity:  O(...)
-Space Complexity: O(...)
+Time Complexity:  O(n^2)
+Space Complexity: O(1)
+
+Issues:
+Time complexity is too high; quadratic time complexity would make computations very difficult for 
+larger inputs.
+
+Tests: 
+([2,7,11,15], 9) --> [0,1], it works
 """
 
 class Solution:

@@ -13,12 +13,10 @@ Space Complexity: O(...)
 
 class Solution:
     def twoSum(self, nums, target):
-        value_to_index = {}
-        for index, value in enumerate(nums):
-            newtarget = target-value
-            if newtarget in value_to_index:
-                return [value_to_index[newtarget], index]
-            value_to_index[value] = index
+        for index1, value1 in enumerate(nums):
+            for index2, value2 in enumerate(nums):
+                if value1+value2 == target:
+                    return [index1, index2]
         
 
 

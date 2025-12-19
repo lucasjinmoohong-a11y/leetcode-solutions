@@ -3,11 +3,9 @@ Approach:
 I created a LinkedList class that would keep track of its head by itself and have the ability to add
 new listNodes by taking in a value and setting the new ListNode's pointer to be the current head. 
 
-Time Complexity:  O(...)
-Space Complexity: O(...)
-
 Issues:
-<problems to fix, challenges I am facing>
+LeetCode won't accept the answer, because I am supposed to use the LinkedList class in LeetCode rather
+than make my own. 
 
 Tests:
 [2,4,3], [5,6,4] --> time limit exceeded

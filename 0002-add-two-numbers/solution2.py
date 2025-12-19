@@ -6,8 +6,8 @@ and having it increase by one until the function reaches the end of the listNode
 I also implemented the ListNode class given by LeetCode, changing my code to fit this by making the 
 input linked lists a listNode and iterating it through each value of the inputs. 
 
-Time Complexity:  O(n)
-Space Complexity: O(n)
+Time Complexity:  O(max(n,m))
+Space Complexity: O(max(n,m))
 
 Issues:
 The ListNode class isn't functional. Moreover, the output is still a list rather than a linked list.

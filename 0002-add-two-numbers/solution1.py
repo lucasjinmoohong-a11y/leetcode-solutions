@@ -3,8 +3,8 @@ Approach:
 For each number in each list, add its value multiplied by its place value (10^index) to an output 
 integer. Then, split the output string into a list, reverse the list's order, and then return it. 
 
-Time Complexity:  O(n)
-Space Complexity: O(n)
+Time Complexity:  O(max(n,m))
+Space Complexity: O(max(n,m))
 
 Issues:
 First, although the code works and returns the correct result, it does not return it in the correct 

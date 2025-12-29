@@ -4,16 +4,17 @@ I added a "current" variable which would track the number of times the previous 
 this variable, I could put the code in a while loop and allow it to keep running for each digit of 
 the output. 
 
-Time Complexity:  O(...)
-Space Complexity: O(...)
+Time Complexity:  O(n^3)
+Space Complexity: O(n)
 
 Issues:
-
+The output is completely wrong for subsequent digits, with only the first digit being correct. Many 
+digits are used multiple times, which should be impossible. 
 
 Tests:
-(3,3) --> 233
-(4,9)
-(3,1) --> 111
+(3,3) --> 233, correct answer: 213
+(4,9) --> 2444, correct answer: 2314
+(3,1) --> 111, correct answer: 123
 """
 
 class Solution(object):

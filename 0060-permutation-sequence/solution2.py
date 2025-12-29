@@ -3,14 +3,11 @@ Approach:
 When finding the first digit of the output, I used the nums list rather than taking the value directly 
 using n. From there, I popped the taken value from the nums list to prevent double-counting. 
 
-Time Complexity:  O()
-Space Complexity: O(...)
+Time Complexity:  O(n^2)
+Space Complexity: O(n)
 
 Issues:
-
-
-Tests:
-<inputs> --> <outputs>, <does it work?>
+This only works for the very first digit of the output. 
 """
 
 class Solution(object):

@@ -1,7 +1,7 @@
 """
 Approach:
 I first thought it was a rounding error, because the slope is 8/3, which could get rounded to 2.66667. 
-However, even after adding a rounding check, the function still outputted the wrong value. git
+However, even after adding a rounding check, the function still outputted the wrong value.
 
 Time Complexity:  O(n^3*20001)
 Space Complexity: O(n)
